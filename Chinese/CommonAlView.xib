@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="腾祥嘉丽细圆简.ttf">
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+            <string>Tensentype-JiaLiXiYuanJ</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4Km-7m-VOt" customClass="CommonAlView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_background" translatesAutoresizingMaskIntoConstraints="NO" id="Nei-61-Rx7">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAd-Zd-0qp">
+                    <rect key="frame" x="179" y="134" width="666" height="500"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_view1" translatesAutoresizingMaskIntoConstraints="NO" id="0Ui-1n-HSE">
+                            <rect key="frame" x="-19" y="-7" width="704" height="514"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="任务已完成。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="600" translatesAutoresizingMaskIntoConstraints="NO" id="oJb-VT-Zvp">
+                            <rect key="frame" x="159" y="180" width="348" height="70"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="58"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urv-We-DFW">
+                            <rect key="frame" x="195" y="347" width="277" height="97"/>
+                            <state key="normal" image="alert_btn_qd"/>
+                            <connections>
+                                <action selector="btnToBack:" destination="4Km-7m-VOt" eventType="touchUpInside" id="IFr-19-ZTd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="oJb-VT-Zvp" firstAttribute="centerX" secondItem="uAd-Zd-0qp" secondAttribute="centerX" id="3ky-U9-LFZ"/>
+                        <constraint firstItem="oJb-VT-Zvp" firstAttribute="centerY" secondItem="uAd-Zd-0qp" secondAttribute="centerY" constant="-35" id="Fiy-zF-wIs"/>
+                        <constraint firstItem="0Ui-1n-HSE" firstAttribute="centerX" secondItem="uAd-Zd-0qp" secondAttribute="centerX" id="Hoh-8E-AfU"/>
+                        <constraint firstItem="0Ui-1n-HSE" firstAttribute="centerY" secondItem="uAd-Zd-0qp" secondAttribute="centerY" id="Hpx-Mq-E88"/>
+                        <constraint firstItem="Urv-We-DFW" firstAttribute="centerX" secondItem="uAd-Zd-0qp" secondAttribute="centerX" id="bWJ-Jk-GKF"/>
+                        <constraint firstAttribute="height" constant="500" id="d3z-nN-uWh"/>
+                        <constraint firstAttribute="bottom" secondItem="Urv-We-DFW" secondAttribute="bottom" constant="56" id="hQ0-Un-EEh"/>
+                        <constraint firstAttribute="width" constant="666" id="jjf-wD-HqB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Nei-61-Rx7" firstAttribute="top" secondItem="4Km-7m-VOt" secondAttribute="top" id="1Fd-vX-QkD"/>
+                <constraint firstItem="Nei-61-Rx7" firstAttribute="centerY" secondItem="4Km-7m-VOt" secondAttribute="centerY" id="Gtb-BN-H4g"/>
+                <constraint firstItem="Nei-61-Rx7" firstAttribute="centerX" secondItem="4Km-7m-VOt" secondAttribute="centerX" id="ber-2E-bGn"/>
+                <constraint firstItem="uAd-Zd-0qp" firstAttribute="centerY" secondItem="4Km-7m-VOt" secondAttribute="centerY" id="m4s-28-xrt"/>
+                <constraint firstItem="Nei-61-Rx7" firstAttribute="leading" secondItem="4Km-7m-VOt" secondAttribute="leading" id="s8U-Nq-QvU"/>
+                <constraint firstItem="uAd-Zd-0qp" firstAttribute="centerX" secondItem="4Km-7m-VOt" secondAttribute="centerX" id="yyV-ME-ILj"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <connections>
+                <outlet property="alertView" destination="uAd-Zd-0qp" id="CAz-nl-Kmk"/>
+            </connections>
+            <point key="canvasLocation" x="2499" y="222"/>
+        </view>
+        <view contentMode="scaleToFill" id="IKm-K7-Wp9" customClass="CommonAlView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView tag="66" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_background" translatesAutoresizingMaskIntoConstraints="NO" id="Gav-Ze-g0H">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yxk-oI-dey">
+                    <rect key="frame" x="179" y="79" width="666" height="610"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_view2" translatesAutoresizingMaskIntoConstraints="NO" id="8rE-rA-3Tt">
+                            <rect key="frame" x="33" y="5" width="600" height="600"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MUSIC" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="600" translatesAutoresizingMaskIntoConstraints="NO" id="ZsI-Ug-58n">
+                            <rect key="frame" x="68" y="45" width="132" height="51"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="42"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPEED" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="600" translatesAutoresizingMaskIntoConstraints="NO" id="5VT-ak-4Bf">
+                            <rect key="frame" x="68" y="241" width="138" height="51"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="42"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyT-Tv-XPv">
+                            <rect key="frame" x="113" y="116" width="201" height="89"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="66"/>
+                            <state key="normal" title="NO" backgroundImage="alert_btn_set_unseleted"/>
+                            <state key="selected" backgroundImage="alert_btn_set_seleted"/>
+                            <state key="highlighted" backgroundImage="alert_btn_set_seleted"/>
+                            <connections>
+                                <action selector="btnSetMusic:" destination="4Km-7m-VOt" eventType="touchUpInside" id="smD-Mm-r8b"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omv-oE-AQm">
+                            <rect key="frame" x="353" y="116" width="201" height="89"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="66"/>
+                            <state key="normal" title="OFF" backgroundImage="alert_btn_set_unseleted"/>
+                            <state key="selected" backgroundImage="alert_btn_set_seleted"/>
+                            <state key="highlighted" backgroundImage="alert_btn_set_seleted"/>
+                            <connections>
+                                <action selector="btnSetMusic:" destination="4Km-7m-VOt" eventType="touchUpInside" id="hhP-h5-dVq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Juk-Hf-tNb">
+                            <rect key="frame" x="113" y="312" width="201" height="89"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="60"/>
+                            <state key="normal" title="SLOW" backgroundImage="alert_btn_set_unseleted"/>
+                            <state key="selected" backgroundImage="alert_btn_set_seleted"/>
+                            <state key="highlighted" backgroundImage="alert_btn_set_seleted"/>
+                            <connections>
+                                <action selector="btnSetSpeed:" destination="4Km-7m-VOt" eventType="touchUpInside" id="OFr-TV-G2t"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udg-wa-Cht">
+                            <rect key="frame" x="353" y="312" width="201" height="89"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="60"/>
+                            <state key="normal" title="FAST" backgroundImage="alert_btn_set_unseleted"/>
+                            <state key="selected" backgroundImage="alert_btn_set_seleted"/>
+                            <state key="highlighted" backgroundImage="alert_btn_set_seleted"/>
+                            <connections>
+                                <action selector="btnSetSpeed:" destination="4Km-7m-VOt" eventType="touchUpInside" id="IdM-kf-JYL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frJ-ge-BbM">
+                            <rect key="frame" x="200" y="466" width="267" height="89"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="60"/>
+                            <state key="normal" title="RESET" backgroundImage="alert_btn_set_normal"/>
+                            <connections>
+                                <action selector="btnSetReSet:" destination="4Km-7m-VOt" eventType="touchUpInside" id="Bon-Cc-CA9"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Juk-Hf-tNb" firstAttribute="top" secondItem="5VT-ak-4Bf" secondAttribute="bottom" constant="20" id="3qD-xk-1UV"/>
+                        <constraint firstAttribute="height" constant="610" id="5NI-uk-o1K"/>
+                        <constraint firstItem="Omv-oE-AQm" firstAttribute="centerX" secondItem="yxk-oI-dey" secondAttribute="centerX" constant="120" id="82w-Un-LbV"/>
+                        <constraint firstItem="8rE-rA-3Tt" firstAttribute="centerX" secondItem="yxk-oI-dey" secondAttribute="centerX" id="A13-FI-Ff9"/>
+                        <constraint firstItem="5VT-ak-4Bf" firstAttribute="leading" secondItem="ZsI-Ug-58n" secondAttribute="leading" id="B8P-p0-Gf0"/>
+                        <constraint firstItem="8rE-rA-3Tt" firstAttribute="centerY" secondItem="yxk-oI-dey" secondAttribute="centerY" id="HMv-Tv-04b"/>
+                        <constraint firstItem="frJ-ge-BbM" firstAttribute="centerX" secondItem="yxk-oI-dey" secondAttribute="centerX" id="PEt-SG-W7M"/>
+                        <constraint firstAttribute="width" constant="666" id="UEV-3J-n1S"/>
+                        <constraint firstItem="udg-wa-Cht" firstAttribute="centerX" secondItem="Omv-oE-AQm" secondAttribute="centerX" id="WrN-01-Xhw"/>
+                        <constraint firstItem="ZsI-Ug-58n" firstAttribute="leading" secondItem="yxk-oI-dey" secondAttribute="leading" constant="68" id="hd5-PC-D4U"/>
+                        <constraint firstAttribute="bottom" secondItem="frJ-ge-BbM" secondAttribute="bottom" constant="55" id="hfa-Xh-R6X"/>
+                        <constraint firstItem="udg-wa-Cht" firstAttribute="top" secondItem="Juk-Hf-tNb" secondAttribute="top" id="iXz-RB-k1T"/>
+                        <constraint firstItem="ZsI-Ug-58n" firstAttribute="top" secondItem="yxk-oI-dey" secondAttribute="top" constant="45" id="jzF-tZ-zwR"/>
+                        <constraint firstItem="KyT-Tv-XPv" firstAttribute="centerX" secondItem="yxk-oI-dey" secondAttribute="centerX" constant="-120" id="rM7-w7-OJg"/>
+                        <constraint firstItem="Omv-oE-AQm" firstAttribute="top" secondItem="KyT-Tv-XPv" secondAttribute="top" id="rWL-z0-Gtx"/>
+                        <constraint firstItem="Juk-Hf-tNb" firstAttribute="centerX" secondItem="KyT-Tv-XPv" secondAttribute="centerX" id="xOT-G1-3bA"/>
+                        <constraint firstItem="5VT-ak-4Bf" firstAttribute="top" secondItem="ZsI-Ug-58n" secondAttribute="bottom" constant="145" id="yWy-41-AT5"/>
+                        <constraint firstItem="KyT-Tv-XPv" firstAttribute="top" secondItem="ZsI-Ug-58n" secondAttribute="bottom" constant="20" id="zYb-7C-kXT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Gav-Ze-g0H" firstAttribute="centerY" secondItem="IKm-K7-Wp9" secondAttribute="centerY" id="3HX-wz-fSb"/>
+                <constraint firstItem="yxk-oI-dey" firstAttribute="centerX" secondItem="IKm-K7-Wp9" secondAttribute="centerX" id="3xR-bC-0qT"/>
+                <constraint firstItem="Gav-Ze-g0H" firstAttribute="centerX" secondItem="IKm-K7-Wp9" secondAttribute="centerX" id="BXJ-nr-Kbv"/>
+                <constraint firstItem="yxk-oI-dey" firstAttribute="centerY" secondItem="IKm-K7-Wp9" secondAttribute="centerY" id="XH2-f2-A0k"/>
+                <constraint firstItem="Gav-Ze-g0H" firstAttribute="leading" secondItem="IKm-K7-Wp9" secondAttribute="leading" id="d2I-Ao-tmP"/>
+                <constraint firstItem="Gav-Ze-g0H" firstAttribute="top" secondItem="IKm-K7-Wp9" secondAttribute="top" id="fdY-Di-RHy"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <connections>
+                <outlet property="alertView" destination="yxk-oI-dey" id="4aQ-G2-XKU"/>
+            </connections>
+            <point key="canvasLocation" x="3615" y="222"/>
+        </view>
+        <view contentMode="scaleToFill" id="bUD-Rm-Kji" customClass="CommonAlView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_background" translatesAutoresizingMaskIntoConstraints="NO" id="VwX-R1-dka">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MvZ-21-vGa">
+                    <rect key="frame" x="179" y="134" width="666" height="500"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_view1" translatesAutoresizingMaskIntoConstraints="NO" id="LSV-y1-zJw">
+                            <rect key="frame" x="-19" y="-7" width="704" height="514"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="任务已完成。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="600" translatesAutoresizingMaskIntoConstraints="NO" id="fZs-LP-CpO">
+                            <rect key="frame" x="159" y="180" width="348" height="70"/>
+                            <fontDescription key="fontDescription" name="Tensentype-JiaLiXiYuanJ" family="Tensentype JiaLiXiYuanJ" pointSize="58"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtA-VS-sH0">
+                            <rect key="frame" x="113" y="347" width="201" height="97"/>
+                            <state key="normal" image="alert_btn_qx1"/>
+                            <connections>
+                                <action selector="btnToHide:" destination="4Km-7m-VOt" eventType="touchUpInside" id="d4N-MM-fY5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grF-yk-ePZ">
+                            <rect key="frame" x="353" y="347" width="201" height="97"/>
+                            <state key="normal" image="alert_btn_qd1"/>
+                            <connections>
+                                <action selector="btnToBack:" destination="bUD-Rm-Kji" eventType="touchUpInside" id="4a3-0i-Gdd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="fZs-LP-CpO" firstAttribute="centerY" secondItem="MvZ-21-vGa" secondAttribute="centerY" constant="-35" id="4fj-2S-PbM"/>
+                        <constraint firstAttribute="height" constant="500" id="4pG-Lo-b77"/>
+                        <constraint firstItem="AtA-VS-sH0" firstAttribute="centerX" secondItem="MvZ-21-vGa" secondAttribute="centerX" constant="-120" id="8FZ-nA-ovD"/>
+                        <constraint firstItem="AtA-VS-sH0" firstAttribute="centerY" secondItem="grF-yk-ePZ" secondAttribute="centerY" id="9lj-Mv-3aY"/>
+                        <constraint firstAttribute="width" constant="666" id="KfP-wH-8kW"/>
+                        <constraint firstItem="fZs-LP-CpO" firstAttribute="centerX" secondItem="MvZ-21-vGa" secondAttribute="centerX" id="gTt-pT-3Zi"/>
+                        <constraint firstItem="grF-yk-ePZ" firstAttribute="centerX" secondItem="MvZ-21-vGa" secondAttribute="centerX" constant="120" id="q6R-o8-H8b"/>
+                        <constraint firstItem="LSV-y1-zJw" firstAttribute="centerX" secondItem="MvZ-21-vGa" secondAttribute="centerX" id="q8C-b0-W4i"/>
+                        <constraint firstItem="LSV-y1-zJw" firstAttribute="centerY" secondItem="MvZ-21-vGa" secondAttribute="centerY" id="qlr-ED-cV9"/>
+                        <constraint firstAttribute="bottom" secondItem="grF-yk-ePZ" secondAttribute="bottom" constant="56" id="x0e-Fv-xc7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MvZ-21-vGa" firstAttribute="centerY" secondItem="bUD-Rm-Kji" secondAttribute="centerY" id="2uK-SD-zFM"/>
+                <constraint firstItem="MvZ-21-vGa" firstAttribute="centerX" secondItem="bUD-Rm-Kji" secondAttribute="centerX" id="OsR-S2-VhX"/>
+                <constraint firstItem="VwX-R1-dka" firstAttribute="centerY" secondItem="bUD-Rm-Kji" secondAttribute="centerY" id="bvL-fn-xzm"/>
+                <constraint firstItem="VwX-R1-dka" firstAttribute="leading" secondItem="bUD-Rm-Kji" secondAttribute="leading" id="gvP-X9-l3E"/>
+                <constraint firstItem="VwX-R1-dka" firstAttribute="centerX" secondItem="bUD-Rm-Kji" secondAttribute="centerX" id="tVO-dY-1Go"/>
+                <constraint firstItem="VwX-R1-dka" firstAttribute="top" secondItem="bUD-Rm-Kji" secondAttribute="top" id="z2z-mF-qNo"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <connections>
+                <outlet property="alertView" destination="MvZ-21-vGa" id="Jqv-cs-GAs"/>
+            </connections>
+            <point key="canvasLocation" x="4713" y="222"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alert_background" width="1024" height="768"/>
+        <image name="alert_btn_qd" width="277" height="97"/>
+        <image name="alert_btn_qd1" width="201" height="97"/>
+        <image name="alert_btn_qx1" width="201" height="97"/>
+        <image name="alert_btn_set_normal" width="267" height="89"/>
+        <image name="alert_btn_set_seleted" width="201" height="89"/>
+        <image name="alert_btn_set_unseleted" width="201" height="89"/>
+        <image name="alert_view1" width="704" height="514"/>
+        <image name="alert_view2" width="600" height="600"/>
+    </resources>
+</document>

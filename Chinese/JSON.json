@@ -1,0 +1,631 @@
+[
+    {
+        "wordImgName":"tu",
+        "wordClock":false,
+        "wordName":"土",
+        "wordPy":"TǓ",
+        "wordColorRGB":"654C0F",
+        "wordParts":[ {"line":[[356, 307],[667, 307]]}, {"line":[[509, 160],[509, 550]]}, {"line":[[326, 554],[696, 554]]}],
+        "wordDurations":[1.5,1.5,1.5],
+        "wordCis":["  地","黄  ","  豆","本  ","  耳其"],
+        "wordCiPys":["TǓ DÌ","HUÁNG TǓ","TǓ DÒU","BĚN TǓ","TǓ ĚR QÍ"],
+        "wordCiType":[8,9,8,9,5]
+    },
+ {
+ "wordImgName":"huo",
+ "wordClock":false,
+ "wordName":"火",
+ "wordPy":"HUǑ",
+ "wordColorRGB":"E74A36",
+ "wordParts":[ {"curve":[[406, 246],[396, 320],[360, 380]]}, {"curve":[[649, 246],[639, 320],[603, 380]]}, {"curve":[[508, 158],[508, 500],[330, 556]]}, {"curve":[[500, 306],[538, 500],[690, 556]]} ],
+ "wordDurations":[1.0,1.0,1.5,1.5],
+ "wordCis":["  山","  光","  箭","灯  ","十万  急"],
+ "wordCiPys":["HUǑ SHĀN","HUǑ GUĀNG","HUǑ JIÀN","DĒNG HUǑ","SHÍ WÀN HUǑ JÍ"],
+ "wordCiType":[8,8,8,9,3]
+ },
+ {
+ "wordImgName":"shui",
+ "wordClock":false,
+ "wordName":"水",
+ "wordPy":"SHUǏ",
+ "wordColorRGB":"5897CA",
+ "wordParts":[  {"line":[[510, 159],[510, 540],[510, 540],[432, 530]]}, {"curveline":[{"line":[[336, 291],[454, 291],[454, 291]]}, {"curve":[[454, 291],[438, 442],[332, 502]]} ] },  {"curve":[[659, 253],[625, 332],[562, 355]]},  {"curve":[[510, 248],[556, 462],[685, 496]]} ],
+ "wordDurations":[2.0,2.5,1.5,1.5],
+ "wordCis":["流  ","清  ","  煮鱼","  手","  落石出"],
+ "wordCiPys":["LIÚ SHUǏ","QĪNG SHUǏ","SHUǏ ZHǓ YÚ","SHUǏ SHǑU","SHUǏ LUÒ SHÍ CHŪ"],
+ "wordCiType":[9,9,5,8,1]
+
+ },
+ 
+ {
+ "wordImgName":"kou",
+ "wordClock":false,
+ "wordName":"口",
+ "wordPy":"KǑU",
+ "wordColorRGB":"B53D3D",
+ "wordParts":[ {"line":[[386, 209],[384, 553]]}, {"line":[[372, 221],[642, 221],[642, 221],[642, 553]]}, {"line":[[372, 498],[642, 498]]} ],
+ "wordDurations":[1.5,2.0,1.5],
+ "wordCis":["  才","井  ","  袋","关  ","有  皆碑"],
+ "wordCiPys":["KǑU CÁI","JǏNG KǑU","KǑU DÀI","GUĀN KǑU","YǑU KǑU JIĒ BĒI"],
+ "wordCiType":[8,9,8,9,2]
+ 
+ },
+ 
+ {
+ "wordImgName":"mu",
+ "wordClock":true,
+ "wordName":"木",
+ "wordPy":"MÙ",
+ "wordColorRGB":"417505",
+ "wordParts":[ {"line":[[336, 262],[677, 262]]}, {"line":[[509, 159],[509, 559]]}, {"curve":[[509, 262],[423, 453],[345, 478]]}, {"curve":[[509, 262],[595, 453],[673, 478]]} ],
+ "wordDurations":[1.5,1.5,1.5,1.5],
+ "wordCis":["树  ","麻  ","  头","  材","人非草  "],
+ "wordCiPys":["SHÙ MÙ","MÁ MÙ","MÙ TÓU","MÙ CÁI","RÉN FĒI CǍO MÙ"],
+ "wordCiType":[9,9,8,8,4]
+ 
+ },
+ {
+ "wordImgName":"chuan",
+ "wordClock":true,
+ "wordName":"川",
+ "wordPy":"CHUĀN",
+ "wordColorRGB":"85AFF7",
+ "wordParts":[{"curve":[[399, 161],[412, 486],[332, 559]]}, {"line":[[520, 173],[520, 517]]}, {"line":[[651, 159],[651, 568]]} ],
+ "wordDurations":[1.5,1.5,1.5],
+ "wordCis":["四  ","山  ","  菜","名山大  ","  流不息"],
+ "wordCiPys":["SÌ CHUĀN","SHĀN CHUĀN","CHUĀN CÀI","MÍNG SHĀN DÀ CHUĀN","CHUĀN LIÚ BÚ XĪ"],
+ "wordCiType":[9,9,8,4,1]
+ 
+ },
+ {
+ "wordImgName":"shan",
+ "wordClock":true,
+ "wordName":"山",
+ "wordPy":"SHĀN",
+ "wordColorRGB":"2F3239",
+ "wordParts":[  {"line":[[510, 161],[510, 518]]}, {"line":[[363, 245],[363, 515],[363, 515],[663, 515]]}, {"line":[[663, 245],[663, 561]]} ],
+ "wordDurations":[1.5,2.5,1.5],
+ "wordCis":["大  ","  川","  林","泰  ","  清水秀"],
+ "wordCiPys":["DÀ SHĀN","SHĀN CHUĀN","SHĀN LÍN","TÀI SHĀN","SHĀN QĪNG SHUǏ XIÙ"],
+ "wordCiType":[9,8,8,9,1]
+ 
+ },
+ {
+ "wordImgName":"wen",
+ "wordClock":true,
+ "wordName":"文",
+ "wordPy":"WÉN",
+ "wordColorRGB":"2E6B9D",
+ "wordParts":[ {"line":[[488, 159],[528, 241]]}, {"line":[[327, 253],[693, 253]]}, {"curve":[[602, 264],[560, 494],[336, 555]]},{"curve":[[414, 264],[456, 494],[680, 555]]} ],
+ "wordDurations":[0.5,1.5,1.5,1.5],
+ "wordCis":["  化","  学","  明","语  ","  治武功"],
+ "wordCiPys":["WÉN HUÀ","WÉN XUÉ","WÉN MÍNG","YǓ WÉN","WÉN ZHÌ WǓ GŌNG"],
+ "wordCiType":[8,8,8,9,1]
+ 
+ },
+ {
+ "wordImgName":"yue",
+ "wordClock":true,
+ "wordName":"月",
+ "wordPy":"YUÈ",
+ "wordColorRGB":"B6A699",
+ "wordParts":[ {"curve":[[410, 181],[420, 505],[349, 558]]},{"line":[[398, 192],[624, 192],[624, 192],[624, 546],[553, 540]]}, {"line":[[398, 290],[624, 290]]}, {"line":[[398, 396],[624, 396]]} ],
+ "wordDurations":[1.5,3.0,1.0,1.0],
+ "wordCis":["  亮","  球","明  ","弯  ","海底捞  "],
+ "wordCiPys":["YUÈ LIÀNG","YUÈ QIÚ","MÍNG YUÈ","WĀN YUÈ","HǍI DǏ LĀO YUÈ"],
+ "wordCiType":[8,8,9,9,4]
+ 
+ },
+ {
+ "wordImgName":"qu",
+ "wordClock":true,
+ "wordName":"去",
+ "wordPy":"QÙ",
+ "wordColorRGB":"606F7A",
+ "wordParts":[ {"line":[[365, 249],[658, 249]]}, {"line":[[509, 158],[509, 374]]}, {"line":[[329, 371],[695, 371]]}, {"line":[[491, 383],[404, 548],[404, 548],[630, 516]]}, {"line":[[570, 435],[685, 557]]} ],
+ "wordDurations":[1.5,1.5,1.5,2.5,1.0],
+ "wordCis":["  哪儿","  除","回  ","不  ","大江东  "],
+ "wordCiPys":["QÙ NǍ ÉR","QÙ CHÚ","HUÍ QÙ","BÚ QÙ","DÀ JIĀNG DŌNG QÙ"],
+ "wordCiType":[5,8,9,9,4]
+ 
+ },
+ {
+ "wordImgName":"feng",
+ "wordClock":true,
+ "wordName":"风",
+ "wordPy":"FĒNG",
+ "wordColorRGB":"57341A",
+ "wordParts":[ {"curve":[[358, 150],[368, 489],[300, 564]]}, {"curveline":[{"line":[[346, 164],[641, 164],[641, 164]]}, {"curve":[[641, 150],[641, 520],[686, 557]]}, {"line":[[686, 557],[719, 472]]}]}, {"curve":[[413, 248],[546, 380],[593, 502]]}, {"curve":[[571, 226],[558, 380],[388, 505]]} ],
+ "wordDurations":[1.5,2.5,1.5,1.5],
+ "wordCis":["  流","  气","大  ","刮  ","春  化雨"],
+ "wordCiPys":["FĒNG LIÚ","FĒNG QÌ","DÀ FĒNG","GUĀ FĒNG","CHŪN FĒNG HUÀ YǓ"],
+ "wordCiType":[8,8,9,9,2]
+ 
+ },
+ {
+ "wordImgName":"shang",
+ "wordClock":true,
+ "wordName":"上",
+ "wordPy":"SHÀNG",
+ "wordColorRGB":"E1BE5B",
+ "wordParts":[ {"line":[[501, 164],[501, 536]]}, {"line":[[490, 317],[677, 317]]}, {"line":[[331, 533],[695, 533]]} ],
+ "wordDurations":[1.5,1.5,1.5],
+ "wordCis":["  海","  山","  午","  古","七  八下"],
+ "wordCiPys":["SHÀNG HǍI","SHÀNG SHĀN","SHÀNG WǓ","SHÀNG GǓ","QĪ SHÀNG BĀ XIÀ"],
+ "wordCiType":[8,8,8,8,2]
+ 
+ },
+ {
+ "wordImgName":"fei",
+ "wordClock":true,
+ "wordName":"飞",
+ "wordPy":"FĒI",
+ "wordColorRGB":"6FCED5",
+ "wordParts":[ {"curveline":[{"line":[[283, 174],[556, 174],[556, 174]]}, {"curve":[[556, 168],[545, 520],[666, 555]]}, {"line":[[666, 555],[715, 457]]}]}, {"curve":[[693, 213],[650, 257],[563, 290]]}, {"curve":[[565, 321],[650, 358],[705, 400]]} ],
+ "wordDurations":[2.5,1.0,1.0],
+ "wordCis":["  翔","  机","  鸟","  奔","  沙走石"],
+ "wordCiPys":["FĒI XIÁNG","FĒI JĪ","FĒI NIǍO","FĒI BĒN","FĒI SHĀ ZǑU SHÍ"],
+ "wordCiType":[8,8,8,8,1]
+ 
+ },
+ {
+ "wordImgName":"yu",
+ "wordClock":true,
+ "wordName":"于",
+ "wordPy":"YÚ",
+ "wordColorRGB":"DC5431",
+ "wordParts":[ {"line":[[358, 201],[665, 201]]}, {"line":[[331, 342],[693, 342]]}, {"line":[[512, 212],[512, 544],[438, 530]]} ],
+ "wordDurations":[1.0,1.0,2.5],
+ "wordCis":["  是","关  ","位  ","勿施  人","不绝  耳"],
+ "wordCiPys":["YÚ SHÌ","GUĀN YÚ","WÈI YÚ","WÙ SHĪ YÚ RÉN","BÚ JUÉ YÚ ĚR"],
+ "wordCiType":[8,9,9,3,3]
+ 
+ },
+ {
+ "wordImgName":"xia",
+ "wordClock":true,
+ "wordName":"下",
+ "wordPy":"XIÀ",
+ "wordColorRGB":"4774A6",
+ "wordParts":[ {"line":[[333, 196],[691, 196]]}, {"line":[[502, 201],[502, 569]]}, {"line":[[516, 297],[627, 386]]} ],
+ "wordDurations":[1.0,1.0,0.5],
+ "wordCis":["  面","上  ","  山","  来","天  为家"],
+ "wordCiPys":["XIÀ MIÀN","SHÀNG XIÀ","XIÀ SHĀN","XIÀ LÁI","TIĀN XIÀ WÉI JIĀ"],
+ "wordCiType":[8,9,8,8,2]
+ 
+ },
+ {
+ "wordImgName":"ye",
+ "wordClock":true,
+ "wordName":"也",
+ "wordPy":"YĚ",
+ "wordColorRGB":"9BC7E5",
+ "wordParts":[ {"line":[[325, 320],[641, 241],[621, 447],[564, 433]]}, {"line":[[513, 158],[513, 483]]}, {"line":[[405, 183],[405, 525],[420, 542],[657, 542],[680, 478]]} ],
+ "wordDurations":[2.0,1.0,2.5],
+ "wordCis":["  是","非  ","  门","之乎者  ","空空如  "],
+ "wordCiPys":["SHÌ YĚ","FĒI YĚ","YĚ MÉN","ZHĪ HŪ ZHĚ YĚ","KŌNG KŌNG RÚ YĚ"],
+ "wordCiType":[8,9,8,4,4]
+ 
+ },
+ {
+ "wordImgName":"ren",
+ "wordClock":true,
+ "wordName":"人",
+ "wordPy":"RÉN",
+ "wordColorRGB":"FF4C4D",
+ "wordParts":[ {"curve":[[508, 161],[518, 450],[334, 556]]}, {"curve":[[500, 290],[558, 494],[690, 556]]} ],
+ "wordDurations":[2.0,1.0,2.5],
+ "wordCis":["  民","  类","  生","一个  ","  才辈出"],
+ "wordCiPys":["RÉN MÍN","RÉN LÈI","RÉN SHĒNG","YĪ GÈ RÉN","RÉN CÁI BÈI CHŪ"],
+ "wordCiType":[8,8,8,7,1]
+ 
+ },
+ {
+ "wordImgName":"ba",
+ "wordClock":true,
+ "wordName":"巴",
+ "wordPy":"BĀ",
+ "wordColorRGB":"48667D",
+ "wordParts":[ {"line":[[352, 195],[652, 195],[652, 195],[652, 353]]}, {"line":[[508, 195],[508, 341]]}, {"line":[[352, 341],[665, 341]]},{"line":[[368, 183],[368, 516],[380, 537],[664, 537],[685, 476]]} ],
+ "wordDurations":[1.5,0.5,1.5,2.5],
+ "wordCis":["下  ","嘴  ","  士","  基斯坦","下里  人"],
+ "wordCiPys":["XIÀ BĀ","ZUǏ BĀ","BĀ SHÌ","BĀ JĪ SĪ TǍN","XIÀ LǏ BĀ RÉN"],
+ "wordCiType":[9,9,8,1,3]
+ 
+ },
+ {
+ "wordImgName":"ri",
+ "wordClock":true,
+ "wordName":"日",
+ "wordPy":"RÌ",
+ "wordColorRGB":"E96D6F",
+ "wordParts":[ {"line":[[396, 188],[396, 564]]}, {"line":[[385, 201],[629, 201],[629, 201],[629, 564]]}, {"line":[[391, 352],[629, 352]]},{"line":[[391, 518],[629, 518]]} ],
+ "wordDurations":[1.0,1.5,1.0,1.0],
+ "wordCis":["  本","  月","  头","好  子","良辰吉  "],
+ "wordCiPys":["RÌ BĚN","RÌ YUÈ","RÌ TÓU","HǍO RÌ ZǏ","LIÁNG CHÉN JÍ RÌ"],
+ "wordCiType":[8,8,8,6,4]
+ 
+ },
+ {
+ "wordImgName":"you",
+ "wordClock":true,
+ "wordName":"有",
+ "wordPy":"YǑU",
+ "wordColorRGB":"5A4476",
+ "wordParts":[ {"line":[[337, 229],[689, 229]]}, {"curve":[[488, 161],[468, 295],[339, 418]]}, {"line":[[429, 308],[429, 569]]}, {"line":[[429, 308],[625, 308],[625, 308],[625, 552],[562, 534]]},{"line":[[429, 377],[625, 377]]},{"line":[[429, 450],[625, 450]]} ],
+ "wordDurations":[1.0,1.0,1.0,2.0,1.0,1.0],
+ "wordCis":["没  ","  趣","  雨","含  ","有始  终"],
+ "wordCiPys":["MÉI YǑU","YǑU QÙ","YǑU YǓ","HÁN YǑU","YǑU SHǏ YǑU ZHŌNG"],
+ "wordCiType":[9,8,8,9,3]
+ 
+ },
+ {
+ "wordImgName":"tian",
+ "wordClock":true,
+ "wordName":"天",
+ "wordPy":"TIĀN",
+ "wordColorRGB":"547AD6",
+ "wordParts":[ {"line":[[344, 202],[670, 202]]}, {"line":[[350, 330],[663, 330]]}, {"curve":[[508, 202],[525, 503],[331, 545]]}, {"curve":[[508, 330],[540, 525],[685, 545]]}  ],
+ "wordDurations":[1,1,1,1],
+ "wordCis":["  空","蓝  ","  气","两  ","  之骄子"],
+ "wordCiPys":["TIĀN KŌNG","LÁN TIĀN","TIĀN QÌ","LIǍNG TIĀN","TIĀN ZHĪ JIĀO ZǏ"],
+ "wordCiType":[8,9,8,9,1]
+ 
+ },
+ {
+ "wordImgName":"shao",
+ "wordClock":true,
+ "wordName":"少",
+ "wordPy":"SHǍO",
+ "wordColorRGB":"44C2DA",
+ "wordParts":[ {"line":[[509, 161],[509, 423]]}, {"curve":[[424, 225],[410, 330],[336, 411]]}, {"curve":[[584, 220],[610, 316],[686, 380]]}, {"curve":[[625, 355],[582, 495],[342, 555]]} ],
+ "wordDurations":[1.0,1.0,1.0,2.0,1.0,1.0],
+ "wordCis":["多  ","  许","  见","很  ","积  成多"],
+ "wordCiPys":["DUŌ SHǍO","SHǍO XǓ","SHǍO JIÀN","HĚN SHǍO","JĪ SHǍO CHÉNG DUŌ"],
+ "wordCiType":[9,8,8,9,2]
+ 
+ },
+ {
+ "wordImgName":"zai",
+ "wordClock":true,
+ "wordName":"在",
+ "wordPy":"ZÀI",
+ "wordColorRGB":"98BEE9",
+ "wordParts":[ {"line":[[336, 235],[688, 235]]}, {"curve":[[464, 162],[450, 335],[330, 439]]}, {"line":[[394, 369],[394, 569]]}, {"line":[[455, 376],[670, 376]]},{"line":[[557, 269],[557, 540]]},{"line":[[429, 539],[692, 539]]} ],
+ "wordDurations":[1.0,1.0,1.0,1.0,1.0,1.0],
+ "wordCis":["  哪儿","  这里","存  ","  家","势  必行"],
+ "wordCiPys":["ZÀI NǍ ÉR","ZÀI ZHÈ LǏ","CÚN ZÀI","ZÀI JIĀ","SHÌ ZÀI BÌ HÁNG"],
+ "wordCiType":[5,5,9,8,2]
+ 
+ },
+ {
+ "wordImgName":"dao",
+ "wordClock":true,
+ "wordName":"刀",
+ "wordPy":"DĀO",
+ "wordColorRGB":"9B9B9B",
+ "wordParts":[ {"curveline":[{"line":[[345, 207],[652, 207],[652, 207]]}, {"curve":[[652, 207],[650, 442],[625, 540]]}, {"line":[[625, 540],[543, 524]]}]}, {"curve":[[476, 218],[466, 461],[345, 550]]} ],
+ "wordDurations":[2.5,1.0],
+ "wordCis":["菜  ","  光","  刃","小李飞  ","单  直入"],
+ "wordCiPys":["CÀI DĀO","DĀO GUĀNG","DĀO RÈN","XIǍO LǏ FĒI DĀO","DĀN DĀO ZHÍ RÙ"],
+ "wordCiType":[9,8,8,4,2]
+ 
+ },
+ {
+ "wordImgName":"mu2",
+ "wordClock":true,
+ "wordName":"目",
+ "wordPy":"MÙ",
+ "wordColorRGB":"BB9C4B",
+ "wordParts":[ {"line":[[388, 188],[388, 550]]}, {"line":[[375, 201],[639, 201],[639, 201],[639, 550]]}, {"line":[[375, 304],[639, 304]]},{"line":[[375, 416],[639, 416]]},{"line":[[375, 524],[639, 524]]} ],
+ "wordDurations":[1.0,2.5,1.0,1.0,1.0],
+ "wordCis":["  光","  的","  标","醒  ","耳  一新"],
+ "wordCiPys":["MÙ GUĀNG","MÙ DE","MÙ BIĀO","XǏNG MÙ","ĚR MÙ YĪ XĪN"],
+ "wordCiType":[8,8,8,9,2]
+ 
+ },
+ {
+ "wordImgName":"ping",
+ "wordClock":true,
+ "wordName":"平",
+ "wordPy":"PÍNG",
+ "wordColorRGB":"2E407B",
+ "wordParts":[ {"line":[[347, 188],[672, 188]]}, {"curve":[[375, 227],[413, 304],[433, 376]]}, {"curve":[[640, 224],[609, 304],[580, 365]]}, {"line":[[323, 410],[697, 410]]}, {"line":[[510, 188],[510, 571]]} ],
+ "wordDurations":[1.0,1.0,1.0,1.0,1.0],
+ "wordCis":["  时","  常","  安","  凡","公  正直"],
+ "wordCiPys":["PÍNG SHÍ","PÍNG CHÁNG","PÍNG ĀN","PÍNG FÁN","GŌNG PÍNG ZHÈNG ZHÍ"],
+ "wordCiType":[8,8,8,8,2]
+ 
+ },
+ {
+ "wordImgName":"zhong",
+ "wordClock":true,
+ "wordName":"中",
+ "wordPy":"ZHŌNG",
+ "wordColorRGB":"222426",
+ "wordParts":[ {"line":[[371, 246],[371, 446]]}, {"line":[[358, 257],[656, 257],[656, 257],[656, 446]]}, {"line":[[358, 402],[656, 402]]}, {"line":[[508, 157],[508, 568]]} ],
+ "wordDurations":[1.0,2.5,1.0,1.0],
+ "wordCis":["  国","  间","正  ","  华","学贯  西"],
+ "wordCiPys":["ZHŌNG GUÓ","ZHŌNG JIĀN","ZHÈNG ZHŌNG","ZHŌNG HUÁ","XUÉ GUÀN ZHŌNG XĪ"],
+ "wordCiType":[8,8,9,8,3]
+ 
+ },
+ {
+ "wordImgName":"men",
+ "wordClock":true,
+ "wordName":"门",
+ "wordPy":"MÉN",
+ "wordColorRGB":"40220C",
+ "wordParts":[ {"curve":[[372, 121],[412, 160],[434, 211]]}, {"line":[[332, 200],[332, 567]]}, {"line":[[484, 162],[689, 162],[689, 162],[689, 550], [612, 538]]} ],
+ "wordDurations":[1.0,1.5,2.5],
+ "wordCis":["  口","开  ","大  ","天安  ","夺  而去"],
+ "wordCiPys":["MÉN KǑU","KĀI MÉN","DÀ MÉN","TIĀN ĀN MÉN","DUÓ MÉN ÉR QÙ"],
+ "wordCiType":[8,9,9,7,2]
+ 
+ },
+ {
+ "wordImgName":"feng2",
+ "wordClock":true,
+ "wordName":"丰",
+ "wordPy":"FĒNG",
+ "wordColorRGB":"95C0BB",
+ "wordParts":[ {"line":[[313, 230],[706, 230]]}, {"line":[[335, 344],[684, 344]]}, {"line":[[299, 456],[718, 456]]}, {"line":[[508, 146],[508, 591]]} ],
+ "wordDurations":[1.0,1.0,1.0,1.0],
+ "wordCis":["  富","  收","  满","  采","  衣足食"],
+ "wordCiPys":["FĒNG FÙ","FĒNG SHŌU","FĒNG MǍN","FĒNG CǍI","FĒNG YĪ ZÚ SHÍ"],
+ "wordCiType":[8,8,8,8,1]
+ 
+ },
+ {
+ "wordImgName":"da",
+ "wordClock":true,
+ "wordName":"大",
+ "wordPy":"DÀ",
+ "wordColorRGB":"C2A280",
+ "wordParts":[ {"line":[[333, 290],[687, 290]]}, {"curve":[[509, 160],[515, 486],[331, 558]]},{"curve":[[509, 290],[535, 486],[689, 552]]}, ],
+ "wordDurations":[1.0,1.0,1.0],
+ "wordCis":["  小","  家","  象","很  ","  步流星"],
+ "wordCiPys":["DÀ XIǍO","DÀ JIĀ","DÀ XIÀNG","HĚN DÀ","DÀ BÙ LIÚ XĪNG"],
+ "wordCiType":[8,8,8,9,1]
+ 
+ },
+ {
+ "wordImgName":"tian2",
+ "wordClock":true,
+ "wordName":"田",
+ "wordPy":"TIÁN",
+ "wordColorRGB":"FEA027",
+ "wordParts":[ {"line":[[374, 196],[374, 550]]}, {"line":[[360, 208],[650, 208],[650, 208],[650, 550]]}, {"line":[[360, 355],[650, 355]]}, {"line":[[510, 196],[510, 513]]}, {"line":[[360, 512],[650, 512]]} ],
+ "wordDurations":[1.5,2.5,1.0,1.0,1.0],
+ "wordCis":["  产","麦  ","  野","  舍","瓜  李下"],
+ "wordCiPys":["TIÁN CHǍN","MÀI TIÁN","TIÁN YĚ","TIÁN SHĚ","GUĀ TIÁN LǏ XIÀ"],
+ "wordCiType":[8,9,8,8,2]
+ 
+ },
+ {
+ "wordImgName":"nv",
+ "wordClock":true,
+ "wordName":"女",
+ "wordPy":"NǙ",
+ "wordColorRGB":"E6B475",
+ "wordParts":[ {"line":[[484, 161],[412, 410],[684, 546]]}, {"curve":[[600, 287],[580, 540],[338, 555]]},{"line":[[334, 276],[689, 276]]} ],
+ "wordDurations":[2.5,1.5,1.5],
+ "wordCis":["  人","  孩","  同学","  朋友","金童玉  "],
+ "wordCiPys":["NǙ RÉN","NǙ HÁI","NǙ TÓNG XUÉ","NǙ PÉNG YǑU","JĪN TÓNG YÙ NǙ"],
+ "wordCiType":[8,8,5,5,4]
+ 
+ },
+ {
+ "wordImgName":"wei",
+ "wordClock":true,
+ "wordName":"未",
+ "wordPy":"WÈI",
+ "wordColorRGB":"30A5D8",
+ "wordParts":[ {"line":[[372, 239],[654, 239]]}, {"line":[[336, 346],[689, 346]]}, {"line":[[510, 157],[510, 570]]}, {"curve":[[510, 346],[460, 484],[334, 527]]},{"curve":[[510, 346],[550, 474],[687, 527]]} ],
+ "wordDurations":[1.0,1.0,1.0,1.0,1.0],
+ "wordCis":["  来","  知","  必","  时","  雨绸缪"],
+ "wordCiPys":["WÈI LÁI","WÈI ZHĪ","WÈI BÌ","WÈI SHÍ","WÈI YǓ CHÓU MIÙ"],
+ "wordCiType":[8,8,8,8,1]
+ 
+ },
+ {
+ "wordImgName":"zi",
+ "wordClock":true,
+ "wordName":"子",
+ "wordPy":"ZǏ",
+ "wordColorRGB":"897A67",
+ "wordParts":[ {"line":[[370, 193],[620, 193],[510, 293]]}, {"line":[[510, 280],[510, 543],[430, 533]]}, {"line":[[332, 353],[693, 353]]} ],
+ "wordDurations":[1.5,1.5,1.5],
+ "wordCis":["小  ","孩  ","女  ","大个  ","赤  之心"],
+ "wordCiPys":["XIǍO ZǏ","HÁI ZǏ","NǙ ZǏ","DÀ GÈ ZǏ","CHÌ ZǏ ZHĪ XĪN"],
+ "wordCiType":[9,9,9,7,2]
+ 
+ },
+ {
+ "wordImgName":"shou2",
+ "wordClock":true,
+ "wordName":"手",
+ "wordPy":"SHǑU",
+ "wordColorRGB":"331856",
+ "wordParts":[ {"curve":[[647, 180],[510, 212],[356, 212]]}, {"line":[[359, 300],[662, 300]]}, {"line":[[329, 399],[693, 399]]}, {"line":[[510, 212],[510, 543],[430, 533]]} ],
+ "wordDurations":[1.5,1.5,1.5,1.5],
+ "wordCis":["  机","  段","  脚","留一  ","心灵  巧"],
+ "wordCiPys":["SHǑU JĪ","SHǑU DUÀN","SHǑU JIǍO","LIÚ YĪ SHǑU","XĪN LÍNG SHǑU QIǍO"],
+ "wordCiType":[8,8,8,7,3]
+ 
+ 
+ },
+ {
+ "wordImgName":"xi",
+ "wordClock":true,
+ "wordName":"西",
+ "wordPy":"XĪ",
+ "wordColorRGB":"E6B82E",
+ "wordParts":[ {"line":[[328, 193],[695, 193]]}, {"line":[[364, 284],[364, 561]]}, {"line":[[352, 295],[659, 295],[659, 295],[659, 560]]}, {"curve":[[465, 193],[465, 353],[396, 445]]}, {"line":[[542, 193],[542, 418],[542, 418],[620, 418]]},  {"line":[[352, 516],[659, 516]]} ],
+ "wordDurations":[1.0,1.0,2.0,1.0,1.5,1.0],
+ "wordCis":["东  ","  北","  方","  班牙","夕阳  下"],
+ "wordCiPys":["DŌNG XĪ","XĪ BĚI","XĪ FĀNG","XĪ BĀN YÁ","XĪ YÁNG XĪ XIÀ"],
+ "wordCiType":[9,8,8,5,3]
+ 
+ },
+ {
+ "wordImgName":"shou",
+ "wordClock":true,
+ "wordName":"首",
+ "wordPy":"SHǑU",
+ "wordColorRGB":"47484F",
+ "wordParts":[ {"line":[[432, 165],[459, 225]]}, {"line":[[592, 165],[567, 225]]}, {"line":[[334, 237],[690, 237]]}, {"line":[[503, 237],[487, 298]]}, {"line":[[398, 298],[398, 569]]}, {"line":[[385, 309],[628, 309],[628, 309],[628, 566]]}, {"line":[[385, 378],[628, 378]]}, {"line":[[385, 451],[628, 451]]}, {"line":[[385, 528],[628, 528]]} ],
+ "wordDurations":[1.0,1.0,1.0,1.0,1.0,2.5,1.0,1.0,1.0],
+ "wordCis":["  先","  尔","  选","元  ","  屈一指"],
+ "wordCiPys":["SHǑU XIĀN","SHǑU ĚR","SHǑU XUǍN","YUÁN SHǑU","SHǑU QŪ YĪ ZHǏ"],
+ "wordCiType":[8,8,8,9,1]
+ 
+ },
+ {
+ "wordImgName":"bai",
+ "wordClock":true,
+ "wordName":"白",
+ "wordPy":"BÁI",
+ "wordColorRGB":"5A4476",
+ "wordParts":[ {"line":[[505, 160],[484, 235]]}, {"line":[[383, 235],[385, 569]]}, {"line":[[372, 235],[638, 235],[638, 235],[638, 566]]}, {"line":[[372, 377],[638, 377]]}, {"line":[[372, 517],[638, 517]]} ],
+ "wordDurations":[1.0,1.0,2.5,1.0,1.0],
+ "wordCis":["  天","李  ","  莲花","  色","青天  日"],
+ "wordCiPys":["BÁI TIĀN","LǏ BÁI","BÁI LIÁN HUĀ","BÁI SÈ","QĪNG TIĀN BÁI RÌ"],
+ "wordCiType":[8,9,5,8,3]
+ 
+ },
+ {
+ "wordImgName":"sheng2",
+ "wordClock":true,
+ "wordName":"生",
+ "wordPy":"SHĒNG",
+ "wordColorRGB":"A04D2C",
+ "wordParts":[ {"curve":[[412, 183],[400, 276],[336, 355]]}, {"line":[[397, 264],[671, 264]]}, {"line":[[509, 159],[509, 542]]}, {"line":[[367, 390],[647, 390]]}, {"line":[[330, 540],[691, 540]]} ],
+ "wordDurations":[1.0,1.0,1.5, 1.0, 1.0],
+ "wordCis":["人  ","  日","  命","  死","今  今世"],
+ "wordCiPys":["RÉN SHĒNG","SHĒNG RÌ","SHĒNG MÌNG","SHĒNG SǏ","JĪN SHĒNG JĪN SHÌ"],
+ "wordCiType":[9,8,8,8,2]
+ 
+ },
+ {
+ "wordImgName":"yi",
+ "wordClock":true,
+ "wordName":"已",
+ "wordPy":"YǏ",
+ "wordColorRGB":"F5A623",
+ "wordParts":[ {"line":[[360, 193],[640, 193],[640, 193],[640, 325]]}, {"line":[[366, 325],[653, 325]]}, {"line":[[378, 264],[378, 515],[392, 540],[664, 540],[685, 472]]} ],
+ "wordDurations":[2.5,1.0,2.5],
+ "wordCis":["  经","  往","业  ","不得  ","迫不得  "],
+ "wordCiPys":["YǏ JĪNG","YǏ WǍNG","YÈ YǏ","BÚ DÉ YǏ","PÒ BÚ DÉ YǏ"],
+ "wordCiType":[8,8,9,7,4]
+ 
+ },
+ {
+ "wordImgName":"yuan",
+ "wordClock":true,
+ "wordName":"元",
+ "wordPy":"YUÁN",
+ "wordColorRGB":"9BC7E5",
+ "wordParts":[ {"line":[[374, 197],[648, 197]]}, {"line":[[340, 318],[681, 318]]}, {"curve":[[457, 318],[450, 515],[336, 555]]}, {"line":[[555, 318],[555, 518],[568, 541],[660, 541],[681, 478]]} ],
+ "wordDurations":[1.0,1.0,1.5,2.5],
+ "wordCis":["  旦","单  ","  素","  曲","三朝  老"],
+ "wordCiPys":["YUÁN DÀN","DĀN YUÁN","YUÁN SÙ","YUÁN QǓ","SĀN CHÁO YUÁN LǍO"],
+ "wordCiType":[8,9,8,8,3]
+ 
+ },
+ {
+ "wordImgName":"li",
+ "wordClock":true,
+ "wordName":"里",
+ "wordPy":"LǏ",
+ "wordColorRGB":"E4A73A",
+ "wordParts":[ {"line":[[390, 179],[390, 368]]}, {"line":[[378, 192],[633, 192],[633, 192],[633, 368]]}, {"line":[[378, 273],[646, 273]]}, {"line":[[378, 357],[646, 357]]}, {"line":[[509, 179],[509, 536]]}, {"line":[[361, 442],[664, 442]]}, {"line":[[327, 536],[693, 536]]} ],
+ "wordDurations":[1.0,2.5,1.0,1.0,1.0,1.0,1.0,1.0],
+ "wordCis":["  面","故  ","心  ","  程碑","表  如一"],
+ "wordCiPys":["LǏ MIÀN","GÙ LǏ","XĪN LǏ","LǏ CHÉNG BĒI","BIǍO LǏ RÚ YĪ"],
+ "wordCiType":[8,9,9,5,2]
+ 
+ },
+ {
+ "wordImgName":"shou3",
+ "wordClock":true,
+ "wordName":"兽",
+ "wordPy":"SHÒU",
+ "wordColorRGB":"A25B00",
+ "wordParts":[ {"curve":[[409, 130],[430, 153],[451, 185]]}, {"curve":[[602, 129],[589, 148],[571, 186]]}, {"line":[[354, 186],[354, 340] ]}, {"line":[[341, 198],[659, 198],[659, 198],[659, 342]]}, {"line":[[341, 263],[659, 263] ]}, {"line":[[506, 190],[506, 333]]}, {"line":[[341, 328],[659, 328] ]}, {"line":[[289, 387],[729, 387]]}, {"line":[[377, 437],[377, 573]]}, {"line":[[365, 449],[644, 449],[644, 449],[644, 573]]}, {"line":[[365, 542],[644, 542]]} ],
+ "wordDurations":[1.0,1.0,1.0, 2.5, 1.0,1.0,1.0, 1.5, 1.0, 1.5, 1.0],
+ "wordCis":["野  ","年  ","  性","猛  ","飞禽走  "],
+ "wordCiPys":["YĚ SHÒU","NIÁN SHÒU","SHÒU XÌNG","MĚNG SHÒU","FĒI QÍN ZǑU SHÒU"],
+ "wordCiType":[9,9,8,9,4]
+ },
+ {
+ "wordImgName":"wan",
+ "wordClock":true,
+ "wordName":"完",
+ "wordPy":"WÁN",
+ "wordColorRGB":"30A5D8",
+ "wordParts":[ {"curve":[[491, 159],[511, 168],[531, 199]]}, {"line":[[352, 199],[352, 293]]}, {"line":[[338, 211],[673, 211],[673, 211],[673, 295]]}, {"line":[[399, 292],[624, 292]]}, {"line":[[340, 375],[683, 375]]}, {"curve":[[457, 375],[457, 509],[329, 559]]},  {"line":[[553, 375],[553, 527],[567, 545],[673, 545],[690, 479]]} ],
+ "wordDurations":[1.0,1.0,1.5,1.0,1.0,1.5,2.0],
+ "wordCis":["  全","  好","  成","  毕","  美无缺"],
+ "wordCiPys":["WÁN QUÁN","WÁN HǍO","WÁN CHÉNG","WÁN BÌ","WÁN MĚI WÚ QUĒ"],
+ "wordCiType":[8,8,8,8,1]
+ 
+ },
+ {
+ "wordImgName":"chong",
+ "wordClock":true,
+ "wordName":"虫",
+ "wordPy":"CHÓNG",
+ "wordColorRGB":"A04D2C",
+ "wordParts":[ {"line":[[360, 209],[360, 386]]}, {"line":[[348, 222],[664, 222],[664, 222],[664, 386]]}, {"line":[[348, 372],[664, 372]]}, {"line":[[513, 130],[513, 523]]}, {"curve":[[307, 535],[523, 533],[677, 499]]}, {"curve":[[647, 416],[700, 462],[717, 564]]}, ],
+ "wordDurations":[1.0,1.5,1.0,1.5,1.0,1.0],
+ "wordCis":["  子","甲  ","昆  ","菜  ","雕  小技"],
+ "wordCiPys":["CHÓNG ZǏ","JIǍ CHÓNG","KŪN CHÓNG","CÀI CHÓNG","DIĀO CHÓNG XIǍO JÌ"],
+ "wordCiType":[8,9,9,9,2]
+ 
+ },
+ {
+ "wordImgName":"wen2",
+ "wordClock":true,
+ "wordName":"问",
+ "wordPy":"WÈN",
+ "wordColorRGB":"E6B82E",
+ "wordParts":[ {"curve":[[367, 131],[412, 170],[430, 222]]}, {"line":[[326, 210],[326, 576]]}, {"line":[[484, 174],[690, 174],[690, 174],[690, 560], [595, 548]]}, {"line":[[437, 283],[437, 460]]}, {"line":[[424, 297],[577, 297],[577, 297],[577, 460]]}, {"line":[[424, 447],[577, 447]]} ],
+ "wordDurations":[1.0,1.5,2.5,1.0, 1.5, 1.0],
+ "wordCis":["  题","学  ","  候","拷  ","无人  津"],
+ "wordCiPys":["WÈN TÍ","XUÉ WÈN","WÈN HÒU","KǍO WÈN","WÚ RÉN WÈN JĪN"],
+ "wordCiType":[8,9,8,9,3]
+ 
+ },
+ {
+ "wordImgName":"niao",
+ "wordClock":true,
+ "wordName":"鸟",
+ "wordPy":"NIǍO",
+ "wordColorRGB":"BA2527",
+ "wordParts":[ {"line":[[476, 126],[459, 180]]}, {"curveline":[{"line":[[362, 193],[623, 193],[623, 193]]}, {"curve":[[623, 180],[629, 285],[605, 332]]}, {"line":[[605, 332],[541, 322]]}]}, {"curve":[[449, 245],[489, 276],[515, 309]]}, {"curveline":[{"line":[[375, 180],[375, 388],[375, 388],[695, 388],[695, 388]]}, {"curve":[[695, 388],[718, 515],[666, 557]]}, {"line":[[666, 557],[557, 547]]}]}, {"line":[[297, 475],[616, 475]]} ],
+ "wordDurations":[1.0,1.5,1.0,2.5,1.0],
+ "wordCis":["小  ","  鸣","  窝","候  ","惊弓之  "],
+ "wordCiPys":["XIǍO NIǍO","NIǍO MÍNG","NIǍO WŌ","HÒU NIǍO","JĪNG GŌNG ZHĪ NIǍO"],
+ "wordCiType":[9,8,8,9,4]
+ 
+ },
+ {
+ "wordImgName":"yu2",
+ "wordClock":true,
+ "wordName":"鱼",
+ "wordPy":"YÚ",
+ "wordColorRGB":"9FBB7D",
+ "wordParts":[  {"curve":[[457, 132],[424, 240],[300, 287]]}, {"line":[[425, 188],[601, 188],[601, 188],[547, 259]]}, {"line":[[372, 259],[372, 462]]}, {"line":[[361, 273],[656, 273],[656, 273],[656, 462]]}, {"line":[[361, 359],[656, 359]]},{"line":[[515, 273],[515, 450]]},{"line":[[361, 450],[669, 450]]} ,{"line":[[306, 539],[718, 539]]} ],
+ "wordDurations":[1.0,1.5,1.5,1.5,1.0,1.0,1.0,1.0],
+ "wordCis":["鲤  ","  鳞","美人  ","淡水  ","  米之乡"],
+ "wordCiPys":["LǏ YÚ","YÚ LÍN","MĚI RÉN YÚ","DÀN SHUǏ YÚ","YÚ MǏ ZHĪ XIĀNG"],
+ "wordCiType":[9,8,7,7,1]
+ 
+ }
+
+ 
+ 
+ ]
+
+
